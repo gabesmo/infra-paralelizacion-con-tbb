@@ -25,7 +25,7 @@ void producto(const vector<int> &u, const vector<int> &v, vector<int> &w,
 void sumar(const vector<int> &w, size_t ini, size_t fin, long &salida) {
 }
 
-// TODO: reparte [0, n) en k trozos, lanza los hilos del producto y los une;
+// : reparte [0, n) en k trozos, lanza los hilos del producto y los une;
 // después lanza los de la suma, los une y combina los parciales. El último
 // trozo se queda con el resto cuando n no es múltiplo de k.
 long hadamard(const vector<int> &u, const vector<int> &v, vector<int> &w,
@@ -46,3 +46,5 @@ int main(int argc, char **argv) {
   }
   return 0;
 }
+
+

@@ -1,7 +1,7 @@
 // Producto de Hadamard con std::thread: w[i] = u[i] * v[i] y después la suma
 // de w. Las dos operaciones se reparten en k trozos disjuntos.
 //
-// Uso: ./hadamard_hilos n
+// Uso: ./hadamard_hilos n pruebapillin
 // Imprime una línea por cada k en {1, 2, 4, 8}.
 #include <chrono>
 #include <cstdio>
@@ -44,7 +44,7 @@ int main(int argc, char **argv) {
     printf("hilos %d n %zu %.1f ms suma %ld\n", k, n,
            duration_cast<microseconds>(t1 - t0).count() / 1000.0, suma);
   }
-  return 0;
+  return 1;
 }
 
 

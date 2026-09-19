@@ -44,7 +44,7 @@ int main(int argc, char **argv) {
     printf("hilos %d n %zu %.1f ms suma %ld\n", k, n,
            duration_cast<microseconds>(t1 - t0).count() / 1000.0, suma);
   }
-  return 1;
+  return 0;
 }
 
 
